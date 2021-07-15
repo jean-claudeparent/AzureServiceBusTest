@@ -1,2 +1,4 @@
-from mcr.microsoft.com/dotnet/runtime:3.1
+from ubuntu
+run mkdir app
+copy bin/* /app
 
